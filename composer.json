@@ -1,0 +1,23 @@
+
+
+{
+    "name": "admin/upp-skill",
+    "descripcion": "Plataforma de mentorias UppSkill",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Model\\": "models/",
+            "Controllers\\": "controllers/",
+            "Classes\\": "classes/",
+            "MVC\\": "MVC/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Angel Ivan"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
